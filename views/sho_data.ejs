@@ -1,0 +1,17 @@
+<html>
+  <head><title><%= title %></title></head>
+  <body>
+ 	<%
+   	response.forEach(function(res){ %>
+   	<table align="center">
+   	<tr>
+   		<td><%= res.nme %></td>
+   		<td><%= res.email %> </td>
+   		<td><%= res.mob %> </td>
+   	</tr>
+   	</table>
+   	<%  
+	   });
+	%>
+  </body>
+</html>

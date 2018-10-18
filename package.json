@@ -1,0 +1,19 @@
+{
+  "name": "Node Express",
+  "version": "1.0.0",
+  "description": "Express tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mm": "^6.5.6",
+    "mongoose": "^5.3.4",
+    "pug": "^2.0.3"
+  }
+}
